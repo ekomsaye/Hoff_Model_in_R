@@ -58,9 +58,9 @@ Coefficients `a_k`, `b_k`, and `c_k` are estimated via least squares regression 
 - `README.md`: Project overview and usage instructions.
 
 ## 📈 Output Example
-
-![Hoff Envelope Plot](![Hoff Model envelope](https://github.com/user-attachments/assets/02b451f9-fcff-44e4-8aa3-d7a0414c1cff)
-)
+<div align="center">
+  <img src="images/Hoff Model envelope.jpg" width="80%" alt="Dashboard Screenshot">
+</div>
 
 ## ✅ Requirements
 
