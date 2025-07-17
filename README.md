@@ -59,7 +59,8 @@ Coefficients `a_k`, `b_k`, and `c_k` are estimated via least squares regression 
 
 ## 📈 Output Example
 
-![Hoff Envelope Plot](Hoff Model envelope.jpg)
+![Hoff Envelope Plot](![Hoff Model envelope](https://github.com/user-attachments/assets/02b451f9-fcff-44e4-8aa3-d7a0414c1cff)
+)
 
 ## ✅ Requirements
 
@@ -70,3 +71,9 @@ Install packages using:
 
 ```r
 install.packages(c("ggplot2", "dplyr", "ncdf4", "tidyr", "scales"))
+
+```
+## 📩 Let’s Connect!
+
+Looking to transform your data into actionable insights?  
+**[Reach out via my GitHub profile](https://github.com/ekomsaye)** or send a message — I’m happy to collaborate and customize dashboards tailored to your needs!
