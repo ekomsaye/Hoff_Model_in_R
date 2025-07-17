@@ -39,3 +39,34 @@ hoff-variance-envelope/
 │   └── diagnostics/         # Optional: envelope diagnostics
 ├── README.md
 └── LICENSE
+```
+
+Coefficients `a_k`, `b_k`, and `c_k` are estimated via least squares regression on the squared PC series.
+
+## 🛠️ How It Works
+
+1. Load and preprocess data (e.g., from netCDF).
+2. Perform SVD to extract top `K` PCs.
+3. Fit a quadratic model to `PC_k²` as a function of scaled time.
+4. Generate upper and lower variance bounds (`± sqrt(var(t))`).
+5. Plot PC series with ribbons showing the Hoff envelope.
+
+## 📂 Files
+
+- `hoff_model.R`: Main script containing all logic.Not authorised for publication.
+- `dataset.nc`: Dataset not yet authorised for publication.
+- `README.md`: Project overview and usage instructions.
+
+## 📈 Output Example
+
+![Hoff Envelope Plot](images/hoff_envelope_pc1.png)
+
+## ✅ Requirements
+
+- R
+- `ggplot2`, `dplyr`, `ncdf4`, `tidyr`, `scales`
+
+Install packages using:
+
+```r
+install.packages(c("ggplot2", "dplyr", "ncdf4", "tidyr", "scales"))
